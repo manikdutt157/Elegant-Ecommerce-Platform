@@ -1,1 +1,1 @@
-# 3elegant E-commerce
+# 3legant E-commerce
