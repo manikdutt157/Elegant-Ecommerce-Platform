@@ -45,7 +45,7 @@ Prerequisites
 Installation
 ------------
 
-1. Clone the repository: git clone https://github.com/your-username/elegant-ecommerce-platform.git
+1. Clone the repository: git clone [https://github.com/manikdutt157/elegant-ecommerce-platform.git](https://github.com/manikdutt157/Elegant-Ecommerce-Platform.git)
 2. Install dependencies: npm install
 3. Create a new MongoDB database and add the connection string to the config/db.js file
 4. Start the application: npm start
@@ -71,9 +71,8 @@ Environment Variables
 Example .env file:
 makefile
 PORT=3000
-MONGO_URI=mongodb://localhost:27017/elegant-ecommerce-platform
-JWT_SECRET=your-secret-key
-PAYMENT_GATEWAY=stripe
+MONGO_URI="mongodb+srv://premraj299:premraj99@elegant.zipsy.mongodb.net/Elegant?retryWrites=true&w=majority&appName=Elegant"
+JWT_SECRET="E-commerce"
 
 API Endpoints
 ----------------
