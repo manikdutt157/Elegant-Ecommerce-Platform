@@ -66,7 +66,6 @@ Environment Variables
 * PORT: The port number to use for the application (default: 3000)
 * MONGO_URI: The connection string for the MongoDB database
 * JWT_SECRET: The secret key for signing JSON Web Tokens
-* PAYMENT_GATEWAY: The payment gateway to use for transactions (e.g. Stripe, PayPal)
 
 Example .env file:
 makefile
@@ -92,7 +91,6 @@ API Endpoints
 * POST /products: Create a new product
 * PATCH /products/:id: Update a product
 * DELETE /products/:id: Delete a product
-
 
 
 Client-Side
