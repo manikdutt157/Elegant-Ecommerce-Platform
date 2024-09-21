@@ -4,18 +4,22 @@ import { GoArrowRight } from "react-icons/go";
 
 export default function CTA() {
   return (
-    <div className="w-full flex border bg-background">
-      <img src={CTAImage} className="flex-1" alt="" />
-      <div className="flex-1 flex items-center p-16">
+    <div className="w-full flex flex-col md:flex-row border bg-background">
+      <img
+        src={CTAImage}
+        className="w-full md:w-1/2 object-cover"
+        alt="Call to Action"
+      />
+      <div className="flex-1 flex items-center p-8 sm:p-16">
         <div className="flex flex-col gap-4">
-          <p className="text-blue-500 font-medium text-lg">
+          <p className="text-blue-500 font-medium text-base sm:text-lg">
             SALE UP TO 35% OFF
           </p>
-          <h1 className="text-5xl font-semibold">
+          <h1 className="text-3xl sm:text-4xl md:text-5xl font-semibold">
             HUNDREDS of <br /> New lower prices!
           </h1>
-          <p className="text-lg w-[38ch]">
-            It's more affordable then ever to give every room in your home a
+          <p className="text-sm sm:text-base md:text-lg">
+            It's more affordable than ever to give every room in your home a
             stylish makeover
           </p>
           <div className="border-b border-black w-fit">
